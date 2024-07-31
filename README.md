@@ -29,7 +29,7 @@ A. Les étapes pour installer  sur Ubuntu:
     git clone https://github.com/abdelkerim/passage-gtfs.git
 
 
-3. Naviguer vers le dossier cloné passage-gtfs 
+3. Naviguer vers le dossier cloné passage-gtfs  et Vvérifiez que les fichiers GTFS sont présents dans le dossier `gtfs`
 
    ```sh
     cd passage-gtfs
