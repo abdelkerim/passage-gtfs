@@ -3,9 +3,9 @@ import pandas as pd
 from datetime import datetime 
 
 # Analyse des fichiers CSV
-ligne_df = pd.read_csv("/Users/abdelkerimharoun/Desktop/Civilia/gtfs/routes.txt")
-trajet_df = pd.read_csv("/Users/abdelkerimharoun/Desktop/Civilia/gtfs/trips.txt")
-horaires_arret_df = pd.read_csv("/Users/abdelkerimharoun/Desktop/Civilia/gtfs/stop_times.txt")
+ligne_df = pd.read_csv("gtfs/routes.txt")
+trajet_df = pd.read_csv("gtfs/trips.txt")
+horaires_arret_df = pd.read_csv("gtfs/stop_times.txt")
 
 
 def les_prochains_departs(numero_arret, heure_actuelle):
