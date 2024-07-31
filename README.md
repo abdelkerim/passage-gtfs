@@ -43,5 +43,5 @@ Pour exécuter l'application depuis la ligne de commande, utilisez la syntaxe su
 ```sh
 python3 app2_gtfs.py <numero d'arret> <l'heure>
 
-<numero d'arret> example 10000
-<l'heure> en format HH:MM:SS example 10:02:10
+## <numero d'arret> example 10005
+## <l'heure> en format HH:MM:SS example 10:02:10
